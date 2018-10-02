@@ -217,7 +217,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &217554206
 Animator:
   serializedVersion: 3
@@ -1003,17 +1003,17 @@ Prefab:
     - target: {fileID: 108333978624143502, guid: 995f80b7ffa70d849b8f996a0a1f35c8,
         type: 2}
       propertyPath: m_Range
-      value: 49.4
+      value: 50.86
       objectReference: {fileID: 0}
     - target: {fileID: 108333978624143502, guid: 995f80b7ffa70d849b8f996a0a1f35c8,
         type: 2}
       propertyPath: m_Intensity
-      value: 28.75
+      value: 28.2
       objectReference: {fileID: 0}
     - target: {fileID: 108333978624143502, guid: 995f80b7ffa70d849b8f996a0a1f35c8,
         type: 2}
       propertyPath: m_SpotAngle
-      value: 67.1
+      value: 63.8
       objectReference: {fileID: 0}
     - target: {fileID: 108333978624143502, guid: 995f80b7ffa70d849b8f996a0a1f35c8,
         type: 2}
@@ -1050,7 +1050,7 @@ Prefab:
     - target: {fileID: 108333978624143502, guid: 995f80b7ffa70d849b8f996a0a1f35c8,
         type: 2}
       propertyPath: m_BounceIntensity
-      value: 4.01
+      value: 8.1
       objectReference: {fileID: 0}
     - target: {fileID: 1650763631591310, guid: 995f80b7ffa70d849b8f996a0a1f35c8, type: 2}
       propertyPath: m_Name
@@ -1059,7 +1059,37 @@ Prefab:
     - target: {fileID: 108333978624143502, guid: 995f80b7ffa70d849b8f996a0a1f35c8,
         type: 2}
       propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 108333978624143502, guid: 995f80b7ffa70d849b8f996a0a1f35c8,
+        type: 2}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 108333978624143502, guid: 995f80b7ffa70d849b8f996a0a1f35c8,
+        type: 2}
+      propertyPath: m_DrawHalo
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108333978624143502, guid: 995f80b7ffa70d849b8f996a0a1f35c8,
+        type: 2}
+      propertyPath: m_Shadows.m_NormalBias
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108333978624143502, guid: 995f80b7ffa70d849b8f996a0a1f35c8,
+        type: 2}
+      propertyPath: m_Shadows.m_Bias
+      value: 0.041
+      objectReference: {fileID: 0}
+    - target: {fileID: 108333978624143502, guid: 995f80b7ffa70d849b8f996a0a1f35c8,
+        type: 2}
+      propertyPath: m_Shadows.m_Resolution
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 108333978624143502, guid: 995f80b7ffa70d849b8f996a0a1f35c8,
+        type: 2}
+      propertyPath: m_Shadows.m_Strength
+      value: 0.586
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 995f80b7ffa70d849b8f996a0a1f35c8, type: 2}
@@ -1170,7 +1200,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: fa1997de4713b8b4ba6e874500d06608, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.012
+      value: 0.036
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa1997de4713b8b4ba6e874500d06608, type: 3}
       propertyPath: m_LocalPosition.y
