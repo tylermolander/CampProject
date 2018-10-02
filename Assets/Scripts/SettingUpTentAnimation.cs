@@ -8,7 +8,8 @@ public class SettingUpTentAnimation : MonoBehaviour
 
     public PlayableDirector timelineS;
     public GameObject setUpTentText;
-
+    public GameObject sleepText;
+    public float time = 3;
 
     void Start () 
     { 
@@ -22,6 +23,8 @@ public class SettingUpTentAnimation : MonoBehaviour
             Debug.Log("pressing space");        
             setUpTentText.SetActive(false);
             timelineS.Play();
+            sleepText.SetActive(true);
+
         }
  
     }   

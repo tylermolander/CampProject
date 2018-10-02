@@ -13,7 +13,7 @@ public class NewScene : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-	    if(Input.GetKeyDown(KeyCode.N))
+	    if(Input.GetKeyDown(KeyCode.E))
 	    {
 	        SceneManager.LoadScene("InTent");
 	    }

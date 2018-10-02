@@ -23,7 +23,6 @@ public class SetUpTent : MonoBehaviour
         setUpTentText.SetActive(true);
         Debug.Log("TentCollision");
 
-
     }
 
 

@@ -1421,6 +1421,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timelineS: {fileID: 1192106343}
   setUpTentText: {fileID: 1704773987}
+  sleepText: {fileID: 12547506}
+  time: 3
 --- !u!1 &1279776704
 GameObject:
   m_ObjectHideFlags: 0
