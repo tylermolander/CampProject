@@ -39,7 +39,7 @@ public class MouseLook:MonoBehaviour
             _rotationX = Mathf.Clamp(_rotationX, minimumVert, maximumVert);
             float delta = Input.GetAxis("Mouse X") * sensitivityHor;
             float rotationY = transform.localEulerAngles.y + delta;
-            transform.localEulerAngles = new Vector3(_rotationX, rotationY, 0);
+            transform.localEulerAngles = new Vector3(_rotationX, rotationY - 30, 0);
         }
     }
 }
