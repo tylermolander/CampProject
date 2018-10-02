@@ -15,7 +15,8 @@ public class NewScene : MonoBehaviour {
 	{
 	    if(Input.GetKeyDown(KeyCode.E))
 	    {
-	        SceneManager.LoadScene("InTent");
+	        //SceneManager.LoadScene("InTent");
+	        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 	    }
 	}
 }
