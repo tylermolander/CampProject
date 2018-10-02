@@ -5,21 +5,25 @@ using UnityEngine.UI;
 
 public class SetUpTent : MonoBehaviour
 {
-    public GameObject thing;
+    public GameObject setUpTentText;
 
     void Start () 
-    {
+    { 
+
     }
 	
     void Update () 
     {
-		
+        if (Input.GetKey(KeyCode.Space))
+        {
+            //SetUpTentAnimation
+        }
     }
     void OnTriggerEnter(Collider other)
     {
-        thing.SetActive(true);
+        setUpTentText.SetActive(true);
         Debug.Log("TentCollision");
-  }
+    }
 
 
 
