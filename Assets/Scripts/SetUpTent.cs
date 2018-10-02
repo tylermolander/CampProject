@@ -11,6 +11,7 @@ public class SetUpTent : MonoBehaviour
 
     void Start () 
     { 
+        Cursor.visible = false;
     }
 	
     void Update () 

@@ -20,8 +20,8 @@ public class SettingUpTentAnimation : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space))
         {
-            Debug.Log("pressing space");        
-            setUpTentText.SetActive(false);
+            Debug.Log("pressing space");      
+            Destroy(setUpTentText);
             timelineS.Play();
             sleepText.SetActive(true);
 
