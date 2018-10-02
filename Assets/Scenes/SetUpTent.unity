@@ -3233,6 +3233,29 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114235640440615716, guid: bfb92aada419df74887843f9a76d3eee,
+        type: 2}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1715156997981914, guid: bfb92aada419df74887843f9a76d3eee, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114235640440615716, guid: bfb92aada419df74887843f9a76d3eee,
+        type: 2}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 114235640440615716, guid: bfb92aada419df74887843f9a76d3eee,
+        type: 2}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
+    - target: {fileID: 1347789608487014, guid: bfb92aada419df74887843f9a76d3eee, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bfb92aada419df74887843f9a76d3eee, type: 2}
   m_IsPrefabAsset: 0
