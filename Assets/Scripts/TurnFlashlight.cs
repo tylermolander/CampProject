@@ -10,6 +10,7 @@ public class TurnFlashlight : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
+	    Cursor.visible = false;
 	    flashlight = GetComponent<Light>();
 	}
 	
