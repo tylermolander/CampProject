@@ -1028,6 +1028,23 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: Cinemachine.CinemachineBrain+VcamActivatedEvent, Cinemachine, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!1 &600437520 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 12468f6920bae4c41b775cb9426620ae,
+    type: 3}
+  m_PrefabInternal: {fileID: 680034701}
+--- !u!65 &600437524
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 600437520}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.0000005, z: 1.8436904}
+  m_Center: {x: 0, y: -5.5532475e-16, z: -0.07815503}
 --- !u!1001 &641031583
 Prefab:
   m_ObjectHideFlags: 0

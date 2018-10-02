@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/InTent.unity
     guid: b7b20cdd7e480544e822b7eecc96bb6c
   - enabled: 1
-    path: Assets/Scenes/SunRise.unity
-    guid: 2591cee9eadec5948ac95df6067c6b18
+    path: Assets/Scenes/SunRiseA.unity
+    guid: a0ecfbee7cab3ff43b0734bc00aef608
+  - enabled: 1
+    path: Assets/Scenes/TakeDownTent.unity
+    guid: 8ab24e07c68d472459e66927f9b6a0e1
   m_configObjects: {}
