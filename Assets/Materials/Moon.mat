@@ -8,7 +8,7 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: Moon
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _EMISSION
+  m_ShaderKeywords: _EMISSION _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -62,15 +62,15 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.249
     - _GlossyReflections: 1
-    - _Metallic: 0
+    - _Metallic: 0.014
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _SmoothnessTextureChannel: 0
+    - _SmoothnessTextureChannel: 1
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.49132252, g: 0.5754717, b: 0.57382375, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 0.32156864}
     - _EmissionColor: {r: 0.171924, g: 0.3105724, b: 0.32166424, a: 1}
