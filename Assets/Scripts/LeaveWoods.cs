@@ -6,10 +6,13 @@ using UnityEngine.Playables;
 
 public class LeaveWoods : MonoBehaviour
 {
+    public PlayableDirector finalTimeline;
 
 
     void Start () 
     { 
+        finalTimeline = GetComponent<PlayableDirector>();
+
     }
 	
     void Update () 
@@ -20,6 +23,7 @@ public class LeaveWoods : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         Debug.Log("TentCollision");
+        finalTimeline.Play();
 
     }
 

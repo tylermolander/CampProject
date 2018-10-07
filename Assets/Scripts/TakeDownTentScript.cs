@@ -6,7 +6,7 @@ using UnityEngine.Playables;
 public class TakeDownTentScript : MonoBehaviour 
 {
 
-    public PlayableDirector leaveTimeline;
+    public PlayableDirector takeDownTimeline;
     public GameObject takeDownTentText;
     public GameObject leaveText;
     public float time = 3;
@@ -14,7 +14,7 @@ public class TakeDownTentScript : MonoBehaviour
     void Start () 
     { 
         Cursor.visible = false;
-        leaveTimeline = GetComponent<PlayableDirector>();
+        takeDownTimeline = GetComponent<PlayableDirector>();
     }
 	
     void Update () 
@@ -23,7 +23,7 @@ public class TakeDownTentScript : MonoBehaviour
         {
             Debug.Log("pressing space");      
             Destroy(takeDownTentText);
-            leaveTimeline.Play();
+            takeDownTimeline.Play();
             leaveText.SetActive(true);
 
         }
