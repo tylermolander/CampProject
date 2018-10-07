@@ -7,6 +7,8 @@ using UnityEngine.Playables;
 public class LeaveWoods : MonoBehaviour
 {
     public PlayableDirector finalTimeline;
+    public GameObject leavewoodsText;
+
 
 
     void Start () 
@@ -24,6 +26,7 @@ public class LeaveWoods : MonoBehaviour
     {
         Debug.Log("TentCollision");
         finalTimeline.Play();
+        Destroy(leavewoodsText);
 
     }
 

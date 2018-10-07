@@ -64,7 +64,7 @@ MonoBehaviour:
   - m_Start: 6.533333333333333
     m_ClipIn: 0
     m_Asset: {fileID: 114402911729674898}
-    m_Duration: 0.5166666666666666
+    m_Duration: 0.33333333333333304
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114075481064965992}
     m_EaseInDuration: 0
@@ -130,10 +130,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Spot Light (1)
     m_Version: 1
-  - m_Start: 12.616666666666662
+  - m_Start: 12.433333333333328
     m_ClipIn: 0
     m_Asset: {fileID: 114183554239754926}
-    m_Duration: 0.5166666666666666
+    m_Duration: 0.31666666666667176
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114075481064965992}
     m_EaseInDuration: 0
@@ -366,7 +366,7 @@ MonoBehaviour:
   m_Parent: {fileID: 11400000}
   m_Children: []
   m_Clips:
-  - m_Start: 17
+  - m_Start: 16.650000000000002
     m_ClipIn: 0
     m_Asset: {fileID: 114775755994727250}
     m_Duration: 0.34999999999999787
@@ -546,7 +546,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Spot Light
     m_Version: 1
-  - m_Start: 7.05
+  - m_Start: 6.866666666666666
     m_ClipIn: 0
     m_Asset: {fileID: 114469662066066178}
     m_Duration: 5.566666666666662
@@ -615,7 +615,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Spot Light
     m_Version: 1
-  - m_Start: 13.13333333333333
+  - m_Start: 12.783333333333331
     m_ClipIn: 0
     m_Asset: {fileID: 114261416964951084}
     m_Duration: 4.216666666666669
@@ -714,7 +714,7 @@ MonoBehaviour:
   m_Parent: {fileID: 11400000}
   m_Children: []
   m_Clips:
-  - m_Start: 5.133333333333334
+  - m_Start: 5.033333333333333
     m_ClipIn: 11.831670743723691
     m_Asset: {fileID: 114180066495477772}
     m_Duration: 3.3499999999999988
@@ -765,7 +765,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Demonic
     m_Version: 1
-  - m_Start: 11.616666666666667
+  - m_Start: 11.1
     m_ClipIn: 11.831670743723691
     m_Asset: {fileID: 114421245694801380}
     m_Duration: 3.3499999999999988
