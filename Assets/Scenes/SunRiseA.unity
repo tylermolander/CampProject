@@ -227,51 +227,20 @@ PlayableDirector:
   m_GameObject: {fileID: 294113631}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 7e525d010d9102f4e9d41435539977dc, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 5c338ace660cc4847b0108a5ae4b3c89, type: 2}
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
-  - key: {fileID: 114622179739124762, guid: 7e525d010d9102f4e9d41435539977dc, type: 2}
+  - key: {fileID: 114528052361173418, guid: 5c338ace660cc4847b0108a5ae4b3c89, type: 2}
     value: {fileID: 294113636}
-  - key: {fileID: 0}
-    value: {fileID: 439717459}
-  - key: {fileID: 0}
-    value: {fileID: 0}
-  - key: {fileID: 0}
-    value: {fileID: 439717459}
-  - key: {fileID: 0}
-    value: {fileID: 439717459}
-  - key: {fileID: 0}
-    value: {fileID: 0}
-  - key: {fileID: 0}
-    value: {fileID: 439717459}
-  - key: {fileID: 114317327746988342, guid: 7e525d010d9102f4e9d41435539977dc, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: 0}
-    value: {fileID: 439717459}
-  - key: {fileID: 114002736918429690, guid: 7e525d010d9102f4e9d41435539977dc, type: 2}
+  - key: {fileID: 114708695777059966, guid: 5c338ace660cc4847b0108a5ae4b3c89, type: 2}
     value: {fileID: 1556517186}
-  - key: {fileID: 114659390596625248, guid: 7e525d010d9102f4e9d41435539977dc, type: 2}
-    value: {fileID: 439717459}
-  - key: {fileID: 0}
-    value: {fileID: 0}
-  - key: {fileID: 114538622271597196, guid: 7e525d010d9102f4e9d41435539977dc, type: 2}
-    value: {fileID: 439717459}
-  - key: {fileID: 0}
-    value: {fileID: 0}
-  - key: {fileID: 114085139982911730, guid: 7e525d010d9102f4e9d41435539977dc, type: 2}
-    value: {fileID: 439717459}
-  - key: {fileID: 0}
-    value: {fileID: 0}
-  - key: {fileID: 114304655544573206, guid: 7e525d010d9102f4e9d41435539977dc, type: 2}
+  - key: {fileID: 114929727111793346, guid: 5c338ace660cc4847b0108a5ae4b3c89, type: 2}
     value: {fileID: 439717459}
   m_ExposedReferences:
-    m_References:
-    - ddd9b67be4da1064892c226b5310e513: {fileID: 439717459}
-    - 357a0ef2663c5af4bb7d51b1033e08f3: {fileID: 439717459}
-    - efe69e8ae7976ec41bb2ac2cb8fc9e2a: {fileID: 439717459}
+    m_References: []
 --- !u!1 &423763816
 GameObject:
   m_ObjectHideFlags: 0
