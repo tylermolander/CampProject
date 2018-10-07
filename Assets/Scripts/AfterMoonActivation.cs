@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
  
-public class LoadOnActivation : MonoBehaviour
+public class AfterMoonActivation : MonoBehaviour
 {
     void OnEnable()
     {
