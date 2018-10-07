@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TakeDownTentTwo.unity
     guid: a0680f56af4456441adef4cb82caaf29
+  - enabled: 1
+    path: Assets/Scenes/EndingScene.unity
+    guid: b567f767d3a53494387a82824c4c45aa
   m_configObjects: {}
