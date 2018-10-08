@@ -1753,7 +1753,8 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 0.037
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114494504450311648, guid: 0781cbb197a646840a73c7a8bff58bd5, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 0781cbb197a646840a73c7a8bff58bd5, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1 &1056731575
@@ -2245,6 +2246,7 @@ GameObject:
   - component: {fileID: 1328313103}
   - component: {fileID: 1328313102}
   - component: {fileID: 1328313101}
+  - component: {fileID: 1328313100}
   m_Layer: 0
   m_Name: SetupCollider
   m_TagString: Untagged
@@ -2252,6 +2254,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1328313100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1328313099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0193b9e3a57961e4daf30cfe6838e06a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionText: {fileID: 1704773987}
 --- !u!65 &1328313101
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2262,8 +2276,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.6396445, y: 1, z: 0.53818345}
-  m_Center: {x: -0.0035682104, y: 0, z: 0.013625069}
+  m_Size: {x: 0.34825325, y: 1, z: 0.34358558}
+  m_Center: {x: 0.037985105, y: 0, z: -0.022798691}
 --- !u!23 &1328313102
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3786,7 +3800,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 154d551efeff19245aeb342024e078c5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 69.972
+      value: -0.0006528045
       objectReference: {fileID: 0}
     - target: {fileID: 13700000, guid: 154d551efeff19245aeb342024e078c5, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -3871,6 +3885,14 @@ Prefab:
     - target: {fileID: 400006, guid: 154d551efeff19245aeb342024e078c5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 154d551efeff19245aeb342024e078c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 359.5463
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 154d551efeff19245aeb342024e078c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.1654022
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 154d551efeff19245aeb342024e078c5, type: 3}

@@ -12,7 +12,7 @@ public class CollisionTrigger : MonoBehaviour
     { 
     }
     
-    void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider player)
     {
         Debug.Log("Collision");
         collisionText.SetActive(true);
