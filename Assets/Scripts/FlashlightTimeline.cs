@@ -6,6 +6,8 @@ using UnityEngine.Playables;
 public class FlashlightTimeline : MonoBehaviour {
 
     public PlayableDirector timeline;
+    public GameObject flashlightText;
+
 
 
     // Use this for initialization
@@ -21,6 +23,8 @@ public class FlashlightTimeline : MonoBehaviour {
             if(Input.GetKeyUp(KeyCode.F))
             {
                 timeline.Play();
+                Destroy(flashlightText);
+
             }
         }
     }

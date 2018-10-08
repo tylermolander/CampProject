@@ -12,7 +12,9 @@ public class TakeDownTentScript : MonoBehaviour
 
     void Start () 
     { 
-        timeline = GetComponent<PlayableDirector>();
+        timeline = GetComponent<PlayableDirector>();        
+        StartCoroutine(ActivateTentText());
+
     }
 	
     void Update () 
@@ -22,12 +24,21 @@ public class TakeDownTentScript : MonoBehaviour
             Debug.Log("pressing space");      
             Destroy(takeDownTentText);
             timeline.Play();
-            leaveText.SetActive(true);
-
+            StartCoroutine(ActivateLeaveText());
         }
- 
     }   
 
+    IEnumerator ActivateTentText()
+    {
+        yield return new WaitForSeconds(2);
+        takeDownTentText.SetActive(true);
+    }
+
+    IEnumerator ActivateLeaveText()
+    {
+        yield return new WaitForSeconds(4);
+        leaveText.SetActive(true);
+    }
 
 }
 

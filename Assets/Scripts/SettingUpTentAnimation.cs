@@ -22,11 +22,17 @@ public class SettingUpTentAnimation : MonoBehaviour
             Debug.Log("pressing space"); 
             Destroy(setUpTentText);
             timeline.Play();
-            sleepText.SetActive(true);
-
+            StartCoroutine(ActivateText());
         }
  
-    }   
+    }
+
+    IEnumerator ActivateText()
+    {
+        yield return new WaitForSeconds(5);
+        sleepText.SetActive(true);
+
+    }
 
 
 }
