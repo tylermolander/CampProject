@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
  
-public class AfterMoonActivation : MonoBehaviour
+public class TransitionMoonToTent : MonoBehaviour
 {
     void OnEnable()
     {

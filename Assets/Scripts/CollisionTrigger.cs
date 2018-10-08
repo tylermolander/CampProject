@@ -4,28 +4,18 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Playables;
 
-public class SetUpTent : MonoBehaviour
+public class CollisionTrigger : MonoBehaviour
 {
-    public GameObject setUpTentText;
-
-
+    public GameObject collisionText;
+    
     void Start () 
     { 
         Cursor.visible = false;
     }
-	
-    void Update () 
-    {
-    }   
     
-
     void OnTriggerEnter(Collider other)
     {
-        setUpTentText.SetActive(true);
-        Debug.Log("TentCollision");
-
+        Debug.Log("Collision");
+        collisionText.SetActive(true);
     }
-
-
-
 }

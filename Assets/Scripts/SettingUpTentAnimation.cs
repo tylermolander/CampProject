@@ -6,23 +6,22 @@ using UnityEngine.Playables;
 public class SettingUpTentAnimation : MonoBehaviour 
 {
 
-    public PlayableDirector timelineS;
     public GameObject setUpTentText;
     public GameObject sleepText;
-    public float time = 3;
+    public PlayableDirector timeline;
 
     void Start () 
-    { 
-        timelineS = GetComponent<PlayableDirector>();
+    { 	    
+        timeline = GetComponent<PlayableDirector>();
     }
 	
     void Update () 
     {
         if (Input.GetKey(KeyCode.Space))
         {
-            Debug.Log("pressing space");      
+            Debug.Log("pressing space"); 
             Destroy(setUpTentText);
-            timelineS.Play();
+            timeline.Play();
             sleepText.SetActive(true);
 
         }
