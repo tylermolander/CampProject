@@ -394,6 +394,11 @@ Prefab:
       propertyPath: m_Name
       value: NightNoise
       objectReference: {fileID: 0}
+    - target: {fileID: 82732359626577820, guid: 6f34f55a700b2524488760b4a6e360f5,
+        type: 2}
+      propertyPath: m_Volume
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f34f55a700b2524488760b4a6e360f5, type: 2}
   m_IsPrefabAsset: 0
@@ -1199,6 +1204,48 @@ Transform:
   m_Father: {fileID: 1806398137}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 125.336, y: -0.000015258789, z: -0.000015258789}
+--- !u!1001 &1315582606
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4237467049337946, guid: e432f3087c7c12a4585ebb817a82f74e, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 18.89204
+      objectReference: {fileID: 0}
+    - target: {fileID: 4237467049337946, guid: e432f3087c7c12a4585ebb817a82f74e, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.46903563
+      objectReference: {fileID: 0}
+    - target: {fileID: 4237467049337946, guid: e432f3087c7c12a4585ebb817a82f74e, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -16.443283
+      objectReference: {fileID: 0}
+    - target: {fileID: 4237467049337946, guid: e432f3087c7c12a4585ebb817a82f74e, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4237467049337946, guid: e432f3087c7c12a4585ebb817a82f74e, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4237467049337946, guid: e432f3087c7c12a4585ebb817a82f74e, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4237467049337946, guid: e432f3087c7c12a4585ebb817a82f74e, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4237467049337946, guid: e432f3087c7c12a4585ebb817a82f74e, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e432f3087c7c12a4585ebb817a82f74e, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &1326633672 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1650763631591310, guid: 995f80b7ffa70d849b8f996a0a1f35c8,
@@ -1875,7 +1922,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 30a42fa10ff6af14eabdfecbf3da0c45, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.15
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 1
   Mute: 0

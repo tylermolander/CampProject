@@ -12,7 +12,6 @@ public class TakeDownTentScript : MonoBehaviour
 
     void Start () 
     { 
-        Cursor.visible = false;
         timeline = GetComponent<PlayableDirector>();
     }
 	

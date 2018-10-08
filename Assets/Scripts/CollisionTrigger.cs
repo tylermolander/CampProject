@@ -10,7 +10,6 @@ public class CollisionTrigger : MonoBehaviour
     
     void Start () 
     { 
-        Cursor.visible = false;
     }
     
     void OnTriggerEnter(Collider other)

@@ -555,7 +555,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 30a42fa10ff6af14eabdfecbf3da0c45, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.15
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -933,6 +933,48 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 95634987795347562, guid: cd244e2840c805c4597eaabdb958efd5,
     type: 2}
   m_PrefabInternal: {fileID: 1493913626}
+--- !u!1001 &1515853078
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4237467049337946, guid: e432f3087c7c12a4585ebb817a82f74e, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 18.89204
+      objectReference: {fileID: 0}
+    - target: {fileID: 4237467049337946, guid: e432f3087c7c12a4585ebb817a82f74e, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.46903563
+      objectReference: {fileID: 0}
+    - target: {fileID: 4237467049337946, guid: e432f3087c7c12a4585ebb817a82f74e, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -16.443283
+      objectReference: {fileID: 0}
+    - target: {fileID: 4237467049337946, guid: e432f3087c7c12a4585ebb817a82f74e, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4237467049337946, guid: e432f3087c7c12a4585ebb817a82f74e, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4237467049337946, guid: e432f3087c7c12a4585ebb817a82f74e, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4237467049337946, guid: e432f3087c7c12a4585ebb817a82f74e, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4237467049337946, guid: e432f3087c7c12a4585ebb817a82f74e, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e432f3087c7c12a4585ebb817a82f74e, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1001 &1875758326
 Prefab:
   m_ObjectHideFlags: 0
