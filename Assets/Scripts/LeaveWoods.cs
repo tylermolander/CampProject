@@ -6,27 +6,20 @@ using UnityEngine.Playables;
 
 public class LeaveWoods : MonoBehaviour
 {
-    public PlayableDirector finalTimeline;
-    public GameObject leavewoodsText;
-
+    public PlayableDirector timeline;
+    public GameObject leaveWoodsText;
 
 
     void Start () 
     { 
-        finalTimeline = GetComponent<PlayableDirector>();
-
+        timeline = GetComponent<PlayableDirector>();
     }
-	
-    void Update () 
-    {
-    }   
     
-
     void OnTriggerEnter(Collider other)
     {
         Debug.Log("TentCollision");
-        finalTimeline.Play();
-        Destroy(leavewoodsText);
+        timeline.Play();
+        Destroy(leaveWoodsText);
 
     }
 

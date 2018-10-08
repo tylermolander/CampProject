@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Playables;
 
-public class InsideTimeline : MonoBehaviour {
+public class FlashlightTimeline : MonoBehaviour {
 
-    public PlayableDirector timelineL;
+    public PlayableDirector timeline;
 
 
     // Use this for initialization
     void Start ()
     {
-        timelineL = GetComponent<PlayableDirector>();
+        timeline = GetComponent<PlayableDirector>();
     }
 	
     // Update is called once per frame
@@ -20,7 +20,7 @@ public class InsideTimeline : MonoBehaviour {
         {
             if(Input.GetKeyUp(KeyCode.F))
             {
-                timelineL.Play();
+                timeline.Play();
             }
         }
     }
