@@ -15,10 +15,10 @@ EditorBuildSettings:
     path: Assets/Scenes/InTent.unity
     guid: b7b20cdd7e480544e822b7eecc96bb6c
   - enabled: 1
-    path: Assets/Scenes/SunRiseA.unity
+    path: Assets/Scenes/SunRise.unity
     guid: a0ecfbee7cab3ff43b0734bc00aef608
   - enabled: 1
-    path: Assets/Scenes/TakeDownTentTwo.unity
+    path: Assets/Scenes/TakeDownTent.unity
     guid: a0680f56af4456441adef4cb82caaf29
   - enabled: 1
     path: Assets/Scenes/EndingScene.unity
