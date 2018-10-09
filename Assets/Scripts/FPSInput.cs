@@ -11,6 +11,8 @@ public class FPSInput : MonoBehaviour {
     public float gravity = -9.8f;
     Animator anim;
 
+    public static GameObject controlledBy; //new code
+
 
     private CharacterController _charController;
 
@@ -23,6 +25,8 @@ public class FPSInput : MonoBehaviour {
 
     void Update()
     {
+        if (controlledBy != null) return; //newcode
+        
         float deltaX = Input.GetAxis("Horizontal") * speed;
         float deltaZ = Input.GetAxis("Vertical") * speed;
         Vector3 movement = new Vector3(deltaX, 0, deltaZ);
