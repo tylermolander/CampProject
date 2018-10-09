@@ -7,6 +7,7 @@ public class TrashScrpit : MonoBehaviour {
    
     Animator anim;
     public GameObject charachter;
+    public GameObject anchor;
     public bool pickingUp = false;
     public bool isWalkingTowards = false;
 
@@ -21,7 +22,10 @@ public class TrashScrpit : MonoBehaviour {
 	    {
 	        AutoWalkTowards();
 	    }
+
 	}
+
+    //have a coroutine that waits a few seconds before returning control of animator and allowing isWalking, etc.
 
     void OnMouseDown()
     {
@@ -42,22 +46,25 @@ public class TrashScrpit : MonoBehaviour {
     void AutoWalkTowards()
     {
         Vector3 targetDir;
-        targetDir = new Vector3(transform.position.x - charachter.transform.position.x,
+        targetDir = new Vector3(anchor.transform.position.x - charachter.transform.position.x,
                                 0f,
-                                transform.position.z - charachter.transform.position.z);
+                                anchor.transform.position.z - charachter.transform.position.z);
 
         Quaternion rot = Quaternion.LookRotation(targetDir);
         charachter.transform.rotation = Quaternion.Slerp(charachter.transform.rotation, rot, 0.05f);
-        charachter.transform.Translate(Vector3.forward * 0.1f);
+        charachter.transform.Translate(Vector3.forward * 0.3f);
 
-        if (Vector3.Distance (charachter.transform.position, this.transform.position) < 0.6)
+        if (Vector3.Distance (charachter.transform.position, anchor.transform.position) < 10)
         {
-            anim.SetTrigger("pickUp");
+            anim.SetBool("pickUp", true);
+            anim.SetBool("isWalking", false);
 
-            charachter.transform.rotation = this.transform.rotation;
+            charachter.transform.rotation = anchor.transform.rotation;
 
             isWalkingTowards = false;
             pickingUp = true;
+
+            //Destroy(gameObject);
         }
 
     }
